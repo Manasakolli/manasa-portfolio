@@ -2,11 +2,17 @@ AOS.init({ once: true, duration: 1000 });
 
 
 new Typed('#typed', {
-  strings: ['Samatha', 'a Developer', 'an ML Enthusiast'],
-  typeSpeed: 70,
-  backSpeed: 40,
-  loop: true
+  strings: ['Lakshmi Manasa Kolli', 'a Web Developer', 'an AI & ML Enthusiast'],
+  typeSpeed: 80,
+  backSpeed: 50,
+  backDelay: 1000,
+  startDelay: 500,
+  loop: true,
+  showCursor: true,
+  cursorChar: '|'
 });
+
+
 new Typed('#typed-about', {
   strings: ['About Me'],
   typeSpeed: 100,
