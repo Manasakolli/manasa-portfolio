@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lakshmi Manasa Kolli | Portfolio</title>
+
+    <!-- External Styles & Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ["Poppins", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body
+    class="bg-white dark:bg-gray-900 text-gray-800 dark:text-white font-sans"
+  >
+    <!-- Header -->
+    <header
+      id="navbar"
+      class="fixed top-0 left-0 right-0 bg-gradient-to-r from-purple-500 to-blue-500 text-white z-50 shadow transition-all"
+    >
+      <div
+        class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center"
+      >
+        <h1 class="text-xl font-bold">Lakshmi Manasa</h1>
+        <nav class="hidden md:flex space-x-8 text-sm md:text-base">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#education">Education</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      id="home"
+      class="pt-28 pb-20 text-center bg-gradient-to-br from-gray-100 via-gray-200 to-gray-100 dark:from-gray-800 dark:via-gray-900 dark:to-gray-800 px-4"
+      data-aos="fade-down"
+    >
+      <h2 class="text-4xl font-bold mb-2 text-gray-800 dark:text-white">
+        Hi, I'm
+        <span class="typed-highlight font-bold text-purple-600"
+          >Lakshmi Manasa Kolli</span
+        >
+      </h2>
+      <p class="text-lg text-gray-700 dark:text-gray-300 mb-6">
+        AI & Data Science Student | Web Developer | ML Enthusiast
+      </p>
+
+      <a
+        href="https://drive.google.com/file/d/1siFXEgZZPGicl1yuQCMeZQxaNNXicOuT/view?usp=drivesdk"
+        target="_blank"
+        class="inline-block bg-purple-600 hover:bg-purple-700 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition-colors duration-300"
+      >
+        <i class="fas fa-eye mr-2"></i>View CV
+      </a>
+    </section>
+    <div class="avatar-container">
+  <video
+    src="assets/wave-avatar.webm"
+    class="avatar-animated"
+    autoplay
+    muted
+    loop
+    playsinline
+  ></video>
+</div>
+
+    <!-- About -->
+    <section id="about" class="py-20 bg-white dark:bg-gray-900 px-4" data-aos="fade-up">
+      <div class="max-w-3xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-6 text-purple-600">About Me</h2>
+        <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
+          I am <strong>Lakshmi Manasa Kolli</strong>, a B.Tech student specializing in 
+          <strong>Artificial Intelligence and Data Science</strong> at Shri Vishnu Engineering College for Women, Andhra Pradesh. <br><br>
+          I’m passionate about <em>machine learning</em>, <em>web development</em>, and solving real-world challenges through data-driven approaches. 
+          I enjoy building projects that combine technology and innovation to create meaningful solutions. <br><br>
+          I’m a fast learner, team player, and love exploring new technologies while continuously improving my skills.
+        </p>
+      </div>
+    </section>
+
+
+    <!-- Skills Section -->
+<section id="skills" class="py-20 bg-gray-50 dark:bg-gray-900" data-aos="fade-up">
+  <div class="max-w-6xl mx-auto px-4 text-center">
+    <h2 class="text-4xl font-bold text-purple-600 mb-12">Technical Skills</h2>
+
+    <!-- Skills Grid -->
+    <div class="grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 justify-items-center">
+
+      <!-- Skill Card -->
+      <div class="group bg-white/80 dark:bg-gray-800/70 backdrop-blur-md border border-purple-200 dark:border-purple-700 p-6 rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300 w-40">
+        <i class="fab fa-python text-4xl text-yellow-500 mb-3 group-hover:scale-110 transition-transform"></i>
+        <p class="font-semibold text-gray-800 dark:text-gray-100">Python</p>
+      </div>
+
+      <div class="group bg-white/80 dark:bg-gray-800/70 backdrop-blur-md border border-purple-200 dark:border-purple-700 p-6 rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300 w-40">
+        <i class="fab fa-java text-4xl text-orange-600 mb-3 group-hover:scale-110 transition-transform"></i>
+        <p class="font-semibold text-gray-800 dark:text-gray-100">Java</p>
+      </div>
+
+      <div class="group bg-white/80 dark:bg-gray-800/70 backdrop-blur-md border border-purple-200 dark:border-purple-700 p-6 rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300 w-40">
+        <i class="fab fa-html5 text-4xl text-red-500 mb-3 group-hover:scale-110 transition-transform"></i>
+        <p class="font-semibold text-gray-800 dark:text-gray-100">HTML</p>
+      </div>
+
+      <div class="group bg-white/80 dark:bg-gray-800/70 backdrop-blur-md border border-purple-200 dark:border-purple-700 p-6 rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300 w-40">
+        <i class="fab fa-css3-alt text-4xl text-blue-500 mb-3 group-hover:scale-110 transition-transform"></i>
+        <p class="font-semibold text-gray-800 dark:text-gray-100">CSS</p>
+      </div>
+
+      <div class="group bg-white/80 dark:bg-gray-800/70 backdrop-blur-md border border-purple-200 dark:border-purple-700 p-6 rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300 w-40">
+        <i class="fab fa-js text-4xl text-yellow-400 mb-3 group-hover:scale-110 transition-transform"></i>
+        <p class="font-semibold text-gray-800 dark:text-gray-100">JavaScript</p>
+      </div>
+
+      <div class="group bg-white/80 dark:bg-gray-800/70 backdrop-blur-md border border-purple-200 dark:border-purple-700 p-6 rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300 w-40">
+        <i class="fab fa-react text-4xl text-cyan-400 mb-3 group-hover:scale-110 transition-transform"></i>
+        <p class="font-semibold text-gray-800 dark:text-gray-100">React.js</p>
+      </div>
+
+      <div class="group bg-white/80 dark:bg-gray-800/70 backdrop-blur-md border border-purple-200 dark:border-purple-700 p-6 rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300 w-40">
+        <i class="fas fa-database text-4xl text-green-600 mb-3 group-hover:scale-110 transition-transform"></i>
+        <p class="font-semibold text-gray-800 dark:text-gray-100">SQL</p>
+      </div>
+
+      <div class="group bg-white/80 dark:bg-gray-800/70 backdrop-blur-md border border-purple-200 dark:border-purple-700 p-6 rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300 w-40">
+        <i class="fas fa-brain text-4xl text-pink-500 mb-3 group-hover:scale-110 transition-transform"></i>
+        <p class="font-semibold text-gray-800 dark:text-gray-100">Machine Learning</p>
+      </div>
+
+      <div class="group bg-white/80 dark:bg-gray-800/70 backdrop-blur-md border border-purple-200 dark:border-purple-700 p-6 rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300 w-40">
+        <i class="fas fa-cubes text-4xl text-purple-500 mb-3 group-hover:scale-110 transition-transform"></i>
+        <p class="font-semibold text-gray-800 dark:text-gray-100">OOP</p>
+      </div>
+
+      <div class="group bg-white/80 dark:bg-gray-800/70 backdrop-blur-md border border-purple-200 dark:border-purple-700 p-6 rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300 w-40">
+        <i class="fas fa-project-diagram text-4xl text-indigo-500 mb-3 group-hover:scale-110 transition-transform"></i>
+        <p class="font-semibold text-gray-800 dark:text-gray-100">DS & Algorithms</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+    <!-- Education (Roadmap Style) -->
+<section id="education" class="relative py-20 bg-gray-50 dark:bg-gray-900">
+  <h2 class="text-center text-4xl font-bold text-purple-600 mb-16">Education</h2>
+
+  <!-- Timeline Path -->
+  <svg
+    id="timeline-path"
+    class="absolute left-1/2 transform -translate-x-1/2 z-0 h-full"
+    width="100"
+    height="100%"
+    viewBox="0 0 100 1600"
+    preserveAspectRatio="none"
+  >
+    <path
+      d="M50,0 C30,100 70,200 50,300 C30,400 70,500 50,600 C30,700 70,800 50,900 C30,1000 70,1100 50,1200 C30,1300 70,1400 50,1600"
+      id="timeline-stroke"
+      stroke="#9333ea"
+      stroke-width="8"
+      fill="none"
+    />
+  </svg>
+
+  <!-- Timeline Cards -->
+  <div class="relative z-10 max-w-3xl mx-auto space-y-24">
+    
+    <!-- College -->
+    <div class="flex justify-start" data-aos="fade-up" data-aos-delay="100">
+      <div class="education-card bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-lg w-11/12 sm:w-2/3">
+        <h3 class="font-bold text-xl text-gray-800 dark:text-white">2022 – 2026</h3>
+        <p class="edu-institute font-semibold text-purple-600">
+          Shri Vishnu Engineering College for Women, Andhra Pradesh
+        </p>
+        <p class="text-gray-600 dark:text-gray-300 mt-2">
+          B.Tech — Artificial Intelligence & Data Science <br />
+          <strong>CGPA: 9.08</strong>
+        </p>
+      </div>
+    </div>
+
+    <!-- Intermediate -->
+    <div class="flex justify-end" data-aos="fade-up" data-aos-delay="300">
+      <div class="education-card bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-lg w-11/12 sm:w-2/3">
+        <h3 class="font-bold text-xl text-gray-800 dark:text-white">2020 – 2022</h3>
+        <p class="edu-institute font-semibold text-purple-600">
+          Sri Viveka Junior College, Andhra Pradesh
+        </p>
+        <p class="text-gray-600 dark:text-gray-300 mt-2">
+          Intermediate (MPC Stream) <br />
+          <strong>Score: 974 / 1000</strong>
+        </p>
+      </div>
+    </div>
+
+    <!-- School -->
+    <div class="flex justify-start" data-aos="fade-up" data-aos-delay="500">
+      <div class="education-card bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-lg w-11/12 sm:w-2/3">
+        <h3 class="font-bold text-xl text-gray-800 dark:text-white">2019 – 2020</h3>
+        <p class="edu-institute font-semibold text-purple-600">
+          BR Oxford EM High School, Andhra Pradesh
+        </p>
+        <p class="text-gray-600 dark:text-gray-300 mt-2">
+          High School — SSC Board <br />
+          <strong>Score: 579 / 600</strong>
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+    <!-- Projects Section (Fixed Layout) -->
+<section id="projects" class="py-20 bg-gray-50 dark:bg-gray-800 px-4" data-aos="fade-up">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-4xl font-bold mb-12 text-center text-purple-600">Projects</h2>
+
+    <!-- Project Grid -->
+    <div class="grid gap-10 sm:grid-cols-1 md:grid-cols-2 justify-items-center">
+
+      <!-- Project 1 -->
+      <div class="bg-white dark:bg-gray-900 rounded-2xl shadow-lg border border-gray-200 dark:border-gray-700 w-full max-w-md transition transform hover:scale-105 duration-300">
+        <img src="images/disaster_response.jpg" alt="Disaster Response and Donation Management System"
+          class="w-full h-60 object-cover rounded-t-2xl" />
+        <div class="p-6 flex flex-col justify-between h-56">
+          <h3 class="text-xl font-bold text-purple-600 mb-2">Disaster Response & Donation Management</h3>
+          <p class="text-gray-700 dark:text-gray-300 text-sm leading-relaxed mb-4">
+            MERN stack web app enabling donors to contribute essentials and funds efficiently,
+            with admin and volunteer tracking for transparent distribution.
+          </p>
+          <a href="https://github.com/Manasakolli/natural-disaster-management-system" target="_blank"
+            class="inline-block bg-purple-600 hover:bg-purple-700 text-white text-sm font-semibold px-4 py-2 rounded-full self-start transition">
+            <i class="fab fa-github mr-1"></i> View Code
+          </a>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="bg-white dark:bg-gray-900 rounded-2xl shadow-lg border border-gray-200 dark:border-gray-700 w-full max-w-md transition transform hover:scale-105 duration-300">
+        <img src="images/sport_classifier.jpg" alt="SportPerson Classifier"
+          class="w-full h-60 object-cover rounded-t-2xl" />
+        <div class="p-6 flex flex-col justify-between h-56">
+          <h3 class="text-xl font-bold text-purple-600 mb-2">SportPerson Classifier</h3>
+          <p class="text-gray-700 dark:text-gray-300 text-sm leading-relaxed mb-4">
+            Flask-based machine learning web app that identifies sports personalities from images
+            using OpenCV, Wavelet Transform, and trained ML models.
+          </p>
+          <a href="https://github.com/Manasakolli/Sports-Person-Classifier" target="_blank"
+            class="inline-block bg-purple-600 hover:bg-purple-700 text-white text-sm font-semibold px-4 py-2 rounded-full self-start transition">
+            <i class="fab fa-github mr-1"></i> View Code
+          </a>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="bg-white dark:bg-gray-900 rounded-2xl shadow-lg border border-gray-200 dark:border-gray-700 w-full max-w-md transition transform hover:scale-105 duration-300 md:col-span-2">
+  <img src="images/smart_water_meter.jpg" alt="Smart Water Meter"
+    class="w-full h-60 object-cover rounded-t-2xl" />
+  <div class="p-4 flex flex-col justify-between h-50">
+    <h3 class="text-lg font-bold text-purple-600 mb-1">Smart Water Meter</h3>
+    <p class="text-gray-700 dark:text-gray-300 text-sm leading-relaxed mb-2">
+      IoT-based solution using Arduino and sensors to automate water usage monitoring,
+      detect leaks, and implement prepaid water management systems.
+    </p>
+    
+  </div>
+</div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <!-- Certifications & Achievements Section -->
+<section id="certifications" class="py-20 bg-white dark:bg-gray-900 px-6" data-aos="fade-up">
+  <div class="max-w-6xl mx-auto text-center">
+    <h2 class="text-4xl font-bold text-purple-600 mb-12">Certifications & Achievements</h2>
+
+    <!-- Certificates Grid -->
+    <div class="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center">
+      
+      <!-- Certificate 1 -->
+      <div class="bg-gray-50 dark:bg-gray-800 rounded-2xl shadow-lg p-6 hover:-translate-y-2 transform transition duration-300 border border-gray-200 dark:border-gray-700 w-full max-w-sm">
+        <i class="fas fa-database text-purple-500 text-4xl mb-4"></i>
+        <h3 class="text-lg font-semibold mb-2 text-gray-800 dark:text-gray-100">
+          Data Structures & Algorithms
+        </h3>
+        <p class="text-gray-600 dark:text-gray-400 text-sm mb-4">Smart Interviews Certification</p>
+        <a href="https://smartinterviews.in/certificate/23e814da" target="_blank"
+          class="inline-block text-sm font-medium text-purple-600 hover:text-purple-800 underline">
+          View Certificate
+        </a>
+      </div>
+
+      <!-- Certificate 2 -->
+      <div class="bg-gray-50 dark:bg-gray-800 rounded-2xl shadow-lg p-6 hover:-translate-y-2 transform transition duration-300 border border-gray-200 dark:border-gray-700 w-full max-w-sm">
+        <i class="fas fa-chart-line text-purple-500 text-4xl mb-4"></i>
+        <h3 class="text-lg font-semibold mb-2 text-gray-800 dark:text-gray-100">
+          Introduction to Data Science with Python
+        </h3>
+        <p class="text-gray-600 dark:text-gray-400 text-sm mb-4">HarvardX (EdX)</p>
+        <a href="https://drive.google.com/file/d/1x8qFbTbitWxXENyjYwkTB0H9nrMgas5m/view?usp=drivesdk" target="_blank"
+          class="inline-block text-sm font-medium text-purple-600 hover:text-purple-800 underline">
+          View Certificate
+        </a>
+      </div>
+
+      <!-- Certificate 3 -->
+      <div class="bg-gray-50 dark:bg-gray-800 rounded-2xl shadow-lg p-6 hover:-translate-y-2 transform transition duration-300 border border-gray-200 dark:border-gray-700 w-full max-w-sm">
+        <i class="fas fa-laptop-code text-purple-500 text-4xl mb-4"></i>
+        <h3 class="text-lg font-semibold mb-2 text-gray-800 dark:text-gray-100">
+          Data Analytics with Python
+        </h3>
+        <p class="text-gray-600 dark:text-gray-400 text-sm mb-4">NPTEL (IIT)</p>
+        <a href="https://drive.google.com/file/d/17Ib2HC5RVqQ_Q3ldJHCItzkkq3mvCraj/view?usp=drivesdk" target="_blank"
+          class="inline-block text-sm font-medium text-purple-600 hover:text-purple-800 underline">
+          View Certificate
+        </a>
+      </div>
+    </div>
+
+    <!-- Divider -->
+    <div class="my-12 border-t border-gray-300 dark:border-gray-700 w-1/2 mx-auto"></div>
+
+    <!-- Achievements Section -->
+    <h3 class="text-2xl font-bold text-purple-600 mb-6">Honors & Awards</h3>
+    <div class="flex flex-wrap justify-center gap-6">
+      <div class="bg-purple-100 dark:bg-purple-900/40 text-purple-700 dark:text-purple-300 font-medium px-6 py-3 rounded-full shadow-md hover:scale-105 transition-transform duration-300">
+        🏆 Finalist — IITMIC Build to Innovate 2024
+      </div>
+      <div class="bg-purple-100 dark:bg-purple-900/40 text-purple-700 dark:text-purple-300 font-medium px-6 py-3 rounded-full shadow-md hover:scale-105 transition-transform duration-300">
+        🚀 Finalist — NASA Space Apps Hackathon
+      </div>
+      <div class="bg-purple-100 dark:bg-purple-900/40 text-purple-700 dark:text-purple-300 font-medium px-6 py-3 rounded-full shadow-md hover:scale-105 transition-transform duration-300">
+        🏀 Winner — Basketball Tournament, Sportify
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="py-20 bg-gray-50 dark:bg-gray-800" data-aos="fade-up">
+      <div class="max-w-xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-4 text-purple-600">Get in Touch</h2>
+        <p class="mb-4">
+          Email me at 
+          <a href="mailto:manasaakolli@gmail.com" class="underline text-purple-500">manasaakolli@gmail.com</a>
+        </p>
+        <p>📞 +91-9391744706</p>
+        <div class="flex justify-center space-x-8 text-2xl mt-4">
+          <a href="https://github.com/Manasakolli" target="_blank" class="hover:text-purple-500"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/lakshmi-manasa-kolli-44b795253/" target="_blank" class="hover:text-purple-500"><i class="fab fa-linkedin"></i></a>
+          <a href="https://leetcode.com/u/manasaakolli/" target="_blank" class="hover:text-purple-500"><i class="fas fa-code"></i></a>
+          <a href="https://www.codechef.com/users/lakshmimanasak" target="_blank" class="hover:text-purple-500"><i class="fas fa-utensils"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-6 bg-gradient-to-r from-purple-500 to-blue-500 text-white">
+      <p>&copy; 2025 Lakshmi Manasa Kolli. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>AOS.init();</script>
+  </body>
+</html>
